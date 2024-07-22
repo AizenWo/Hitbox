@@ -1,0 +1,330 @@
+--\\TrollsDev//--
+--\\For Level 3 Executor//--
+local trollsKit = Instance.new("ScreenGui")
+local mainFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Buttons = Instance.new("Folder")
+local HitboxButtons = Instance.new("Folder")
+local _25 = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local _50 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local _75 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local _10 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local _5 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local HitboxTransparency = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local HitboxDistance = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Labels = Instance.new("Folder")
+local HitboxInfo = Instance.new("TextLabel")
+local BuildTip = Instance.new("TextLabel")
+local Title = Instance.new("TextLabel")
+local version = Instance.new("TextLabel")
+local HideWarn = Instance.new("TextLabel")
+local dc = Instance.new("TextLabel")
+local dc2 = Instance.new("TextLabel")
+local cre2 = Instance.new("TextLabel")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+
+--Properties:
+
+trollsKit.Name = "trollsKit"
+trollsKit.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+trollsKit.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+trollsKit.ResetOnSpawn = false
+
+mainFrame.Name = "mainFrame"
+mainFrame.Parent = trollsKit
+mainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+mainFrame.Position = UDim2.new(0, 424, 0, 116)
+mainFrame.Size = UDim2.new(0, 770, 0, 294)
+
+UICorner.Parent = mainFrame
+
+Buttons.Name = "Buttons"
+Buttons.Parent = mainFrame
+
+HitboxButtons.Name = "HitboxButtons"
+HitboxButtons.Parent = Buttons
+
+_25.Name = "25"
+_25.Parent = HitboxButtons
+_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_25.Position = UDim2.new(0.864838481, 0, 0.380594462, 0)
+_25.Size = UDim2.new(0, 57, 0, 19)
+_25.Font = Enum.Font.SourceSansBold
+_25.Text = "25"
+_25.TextColor3 = Color3.fromRGB(255, 234, 0)
+_25.TextScaled = true
+_25.TextSize = 14.000
+_25.TextStrokeTransparency = 0.420
+_25.TextWrapped = true
+
+UICorner_2.Parent = _25
+
+_50.Name = "50"
+_50.Parent = HitboxButtons
+_50.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_50.Position = UDim2.new(0.769282937, 0, 0.481322408, 0)
+_50.Size = UDim2.new(0, 57, 0, 19)
+_50.Font = Enum.Font.SourceSansBold
+_50.Text = "50"
+_50.TextColor3 = Color3.fromRGB(255, 234, 0)
+_50.TextScaled = true
+_50.TextSize = 14.000
+_50.TextStrokeTransparency = 0.420
+_50.TextWrapped = true
+
+UICorner_3.Parent = _50
+
+_75.Name = "75"
+_75.Parent = HitboxButtons
+_75.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_75.Position = UDim2.new(0.769282937, 0, 0.590046585, 0)
+_75.Size = UDim2.new(0, 57, 0, 19)
+_75.Font = Enum.Font.SourceSansBold
+_75.Text = "75"
+_75.TextColor3 = Color3.fromRGB(255, 234, 0)
+_75.TextScaled = true
+_75.TextSize = 14.000
+_75.TextStrokeTransparency = 0.420
+_75.TextWrapped = true
+
+UICorner_4.Parent = _75
+
+_10.Name = "10"
+_10.Parent = HitboxButtons
+_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_10.Position = UDim2.new(0.689282835, 0, 0.380594462, 0)
+_10.Size = UDim2.new(0, 57, 0, 19)
+_10.Font = Enum.Font.SourceSansBold
+_10.Text = "10"
+_10.TextColor3 = Color3.fromRGB(255, 234, 0)
+_10.TextScaled = true
+_10.TextSize = 14.000
+_10.TextStrokeTransparency = 0.420
+_10.TextWrapped = true
+
+UICorner_5.Parent = _10
+
+_5.Name = "5"
+_5.Parent = HitboxButtons
+_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_5.Position = UDim2.new(0.778171897, 0, 0.275510192, 0)
+_5.Size = UDim2.new(0, 57, 0, 19)
+_5.Font = Enum.Font.SourceSansBold
+_5.Text = "5"
+_5.TextColor3 = Color3.fromRGB(255, 234, 0)
+_5.TextScaled = true
+_5.TextSize = 14.000
+_5.TextStrokeTransparency = 0.420
+_5.TextWrapped = true
+
+UICorner_6.Parent = _5
+
+HitboxTransparency.Name = "HitboxTransparency"
+HitboxTransparency.Parent = Buttons
+HitboxTransparency.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HitboxTransparency.Position = UDim2.new(0.0202256888, 0, 0.588435352, 0)
+HitboxTransparency.Size = UDim2.new(0, 137, 0, 37)
+HitboxTransparency.Font = Enum.Font.Unknown
+HitboxTransparency.Text = "Hitbox Transparency: 0.75"
+HitboxTransparency.TextColor3 = Color3.fromRGB(255, 234, 0)
+HitboxTransparency.TextScaled = true
+HitboxTransparency.TextSize = 14.000
+HitboxTransparency.TextStrokeTransparency = 0.420
+HitboxTransparency.TextWrapped = true
+
+UICorner_7.Parent = HitboxTransparency
+
+Close.Name = "Close"
+Close.Parent = Buttons
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.Position = UDim2.new(0.955029786, 0, -0.0464853868, 0)
+Close.Size = UDim2.new(0, 22, 0, 18)
+Close.Font = Enum.Font.Unknown
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+UICorner_8.Parent = Close
+
+HitboxDistance.Name = "HitboxDistance"
+HitboxDistance.Parent = Buttons
+HitboxDistance.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HitboxDistance.Position = UDim2.new(0.0217543244, 0, 0.435016245, 0)
+HitboxDistance.Size = UDim2.new(0, 137, 0, 37)
+HitboxDistance.Font = Enum.Font.Unknown
+HitboxDistance.Text = "Proximity-Based Hitbox Scaling: 30"
+HitboxDistance.TextColor3 = Color3.fromRGB(255, 234, 0)
+HitboxDistance.TextScaled = true
+HitboxDistance.TextSize = 14.000
+HitboxDistance.TextStrokeTransparency = 0.420
+HitboxDistance.TextWrapped = true
+
+UICorner_9.Parent = HitboxDistance
+
+Labels.Name = "Labels"
+Labels.Parent = mainFrame
+
+HitboxInfo.Name = "HitboxInfo"
+HitboxInfo.Parent = Labels
+HitboxInfo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HitboxInfo.BackgroundTransparency = 1.000
+HitboxInfo.Position = UDim2.new(0.7388165, 0, 0.159863949, 0)
+HitboxInfo.Size = UDim2.new(0, 96, 0, 24)
+HitboxInfo.Font = Enum.Font.Unknown
+HitboxInfo.Text = "* Hitbox Increase *"
+HitboxInfo.TextColor3 = Color3.fromRGB(255, 255, 255)
+HitboxInfo.TextScaled = true
+HitboxInfo.TextSize = 14.000
+HitboxInfo.TextWrapped = true
+
+BuildTip.Name = "BuildTip"
+BuildTip.Parent = Labels
+BuildTip.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BuildTip.BackgroundTransparency = 1.000
+BuildTip.Position = UDim2.new(0.0272748945, 0, 0.918367326, 0)
+BuildTip.Size = UDim2.new(0, 198, 0, 21)
+BuildTip.Font = Enum.Font.Unknown
+BuildTip.Text = "*Building tools*"
+BuildTip.TextColor3 = Color3.fromRGB(255, 255, 255)
+BuildTip.TextScaled = true
+BuildTip.TextSize = 14.000
+BuildTip.TextWrapped = true
+
+Title.Name = "Title"
+Title.Parent = Labels
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.373062938, 0, 0.0346820802, 0)
+Title.Size = UDim2.new(0, 218, 0, 35)
+Title.Font = Enum.Font.Unknown
+Title.Text = "TrollsDev Kit"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+version.Name = "version"
+version.Parent = Labels
+version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+version.BackgroundTransparency = 1.000
+version.Position = UDim2.new(0.0168204513, 0, 0.00773188474, 0)
+version.Size = UDim2.new(0, 92, 0, 24)
+version.Font = Enum.Font.Unknown
+version.Text = "Version 1.1"
+version.TextColor3 = Color3.fromRGB(255, 255, 255)
+version.TextScaled = true
+version.TextSize = 14.000
+version.TextWrapped = true
+
+HideWarn.Name = "HideWarn"
+HideWarn.Parent = Labels
+HideWarn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HideWarn.BackgroundTransparency = 1.000
+HideWarn.Position = UDim2.new(0.682683587, 0, 0.918367326, 0)
+HideWarn.Size = UDim2.new(0, 200, 0, 21)
+HideWarn.Font = Enum.Font.Unknown
+HideWarn.Text = "Press Delete to Hide/Unhide"
+HideWarn.TextColor3 = Color3.fromRGB(255, 255, 255)
+HideWarn.TextScaled = true
+HideWarn.TextSize = 14.000
+HideWarn.TextWrapped = true
+
+dc.Name = "dc"
+dc.Parent = Labels
+dc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dc.BackgroundTransparency = 1.000
+dc.Position = UDim2.new(0.717899978, 0, 0.658156097, 0)
+dc.Size = UDim2.new(0, 198, 0, 21)
+dc.Font = Enum.Font.Unknown
+dc.Text = "discord.gg/badLuXUBHk"
+dc.TextColor3 = Color3.fromRGB(255, 255, 255)
+dc.TextScaled = true
+dc.TextSize = 14.000
+dc.TextWrapped = true
+
+dc2.Name = "dc2"
+dc2.Parent = Labels
+dc2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dc2.BackgroundTransparency = 1.000
+dc2.Position = UDim2.new(0.759776533, 0, 0.585034013, 0)
+dc2.Size = UDim2.new(0, 198, 0, 21)
+dc2.Font = Enum.Font.Unknown
+dc2.Text = "join my discord"
+dc2.TextColor3 = Color3.fromRGB(255, 255, 255)
+dc2.TextScaled = true
+dc2.TextSize = 14.000
+dc2.TextWrapped = true
+
+cre2.Name = "cre2"
+cre2.Parent = Labels
+cre2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cre2.BackgroundTransparency = 1.000
+cre2.Position = UDim2.new(0.871858299, 0, 0.521768689, 0)
+cre2.Size = UDim2.new(0, 72, 0, 24)
+cre2.Font = Enum.Font.Unknown
+cre2.Text = "for Credits"
+cre2.TextColor3 = Color3.fromRGB(255, 255, 255)
+cre2.TextScaled = true
+cre2.TextSize = 14.000
+cre2.TextWrapped = true
+
+UIAspectRatioConstraint.Parent = mainFrame
+
+-- Scripts:
+
+local function ButtonPressed(Button)
+    return Button.MouseButton1Click
+end
+
+local function onButtonPress()
+    ButtonPressed(_5).Connect(function()
+        HitboxTransparency.Text = "Hitbox Transparency: 0.05"
+        -- Logic to update the hitbox transparency
+    end)
+
+    ButtonPressed(_10).Connect(function()
+        HitboxTransparency.Text = "Hitbox Transparency: 0.10"
+        -- Logic to update the hitbox transparency
+    end)
+
+    ButtonPressed(_25).Connect(function()
+        HitboxTransparency.Text = "Hitbox Transparency: 0.25"
+        -- Logic to update the hitbox transparency
+    end)
+
+    ButtonPressed(_50).Connect(function()
+        HitboxTransparency.Text = "Hitbox Transparency: 0.50"
+        -- Logic to update the hitbox transparency
+    end)
+
+    ButtonPressed(_75).Connect(function()
+        HitboxTransparency.Text = "Hitbox Transparency: 0.75"
+        -- Logic to update the hitbox transparency
+    end)
+end
+
+onButtonPress()
+
+-- Hide/Unhide UI with Delete key
+local UserInputService = game:GetService("UserInputService")
+
+local function toggleVisibility()
+    trollsKit.Enabled = not trollsKit.Enabled
+end
+
+UserInputService.InputBegan:Connect(function(input)
+    if input.KeyCode == Enum.KeyCode.Delete then
+        toggleVisibility()
+    end
+end)
