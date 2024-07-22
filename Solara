@@ -192,139 +192,226 @@ BuildTip.Name = "BuildTip"
 BuildTip.Parent = Labels
 BuildTip.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BuildTip.BackgroundTransparency = 1.000
-BuildTip.Position = UDim2.new(0.0272748945, 0, 0.918367326, 0)
-BuildTip.Size = UDim2.new(0, 198, 0, 21)
-BuildTip.Font = Enum.Font.Unknown
-BuildTip.Text = "*Building tools*"
-BuildTip.TextColor3 = Color3.fromRGB(255, 255, 255)
+BuildTip.Position = UDim2.new(0.0485571809, 0, 0.911564648, 0)
+BuildTip.Size = UDim2.new(0, 474, 0, 19)
+BuildTip.Font = Enum.Font.SourceSans
+BuildTip.Text = "Not all weapons will work with this script, try using Buddy or koko sword and acidum rifle!"
+BuildTip.TextColor3 = Color3.fromRGB(255, 234, 0)
 BuildTip.TextScaled = true
 BuildTip.TextSize = 14.000
+BuildTip.TextStrokeTransparency = 0.750
 BuildTip.TextWrapped = true
 
 Title.Name = "Title"
 Title.Parent = Labels
 Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Title.BackgroundTransparency = 1.000
-Title.Position = UDim2.new(0.373062938, 0, 0.0346820802, 0)
-Title.Size = UDim2.new(0, 218, 0, 35)
+Title.Position = UDim2.new(0.123324007, 0, 0.0136054419, 0)
+Title.Size = UDim2.new(0, 418, 0, 24)
 Title.Font = Enum.Font.Unknown
-Title.Text = "TrollsDev Kit"
-Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.Text = "this script was made  to run on the solara executor"
+Title.TextColor3 = Color3.fromRGB(255, 247, 8)
 Title.TextScaled = true
 Title.TextSize = 14.000
+Title.TextStrokeTransparency = 0.680
 Title.TextWrapped = true
 
 version.Name = "version"
 version.Parent = Labels
 version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 version.BackgroundTransparency = 1.000
-version.Position = UDim2.new(0.0168204513, 0, 0.00773188474, 0)
-version.Size = UDim2.new(0, 92, 0, 24)
+version.Position = UDim2.new(0.266353577, 0, 0.506802738, 0)
+version.Size = UDim2.new(0, 262, 0, 24)
 version.Font = Enum.Font.Unknown
-version.Text = "Version 1.1"
-version.TextColor3 = Color3.fromRGB(255, 255, 255)
+version.Text = "Solara Version"
+version.TextColor3 = Color3.fromRGB(255, 234, 0)
 version.TextScaled = true
 version.TextSize = 14.000
+version.TextStrokeTransparency = 0.420
 version.TextWrapped = true
 
 HideWarn.Name = "HideWarn"
 HideWarn.Parent = Labels
 HideWarn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 HideWarn.BackgroundTransparency = 1.000
-HideWarn.Position = UDim2.new(0.682683587, 0, 0.918367326, 0)
-HideWarn.Size = UDim2.new(0, 200, 0, 21)
-HideWarn.Font = Enum.Font.Unknown
-HideWarn.Text = "Press Delete to Hide/Unhide"
+HideWarn.Position = UDim2.new(0.267689228, 0, 0.819727898, 0)
+HideWarn.Size = UDim2.new(0, 237, 0, 27)
+HideWarn.Font = Enum.Font.SourceSansBold
+HideWarn.Text = "Press Y to Hide/Show this Interface!"
 HideWarn.TextColor3 = Color3.fromRGB(255, 255, 255)
 HideWarn.TextScaled = true
-HideWarn.TextSize = 14.000
+HideWarn.TextSize = 38.000
+HideWarn.TextStrokeTransparency = 0.000
 HideWarn.TextWrapped = true
 
 dc.Name = "dc"
 dc.Parent = Labels
 dc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 dc.BackgroundTransparency = 1.000
-dc.Position = UDim2.new(0.717899978, 0, 0.658156097, 0)
-dc.Size = UDim2.new(0, 198, 0, 21)
+dc.Position = UDim2.new(0.339203656, 0, 0.714285731, 0)
+dc.Size = UDim2.new(0, 164, 0, 27)
 dc.Font = Enum.Font.Unknown
-dc.Text = "discord.gg/badLuXUBHk"
-dc.TextColor3 = Color3.fromRGB(255, 255, 255)
+dc.Text = "Join dc.gg/d49d6EENY3 for more scripts!"
+dc.TextColor3 = Color3.fromRGB(167, 141, 206)
 dc.TextScaled = true
-dc.TextSize = 14.000
+dc.TextSize = 38.000
 dc.TextWrapped = true
 
 dc2.Name = "dc2"
 dc2.Parent = Labels
 dc2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 dc2.BackgroundTransparency = 1.000
-dc2.Position = UDim2.new(0.759776533, 0, 0.585034013, 0)
-dc2.Size = UDim2.new(0, 198, 0, 21)
-dc2.Font = Enum.Font.Unknown
-dc2.Text = "join my discord"
-dc2.TextColor3 = Color3.fromRGB(255, 255, 255)
+dc2.Position = UDim2.new(0.241238207, 0, 0.095238097, 0)
+dc2.Size = UDim2.new(0, 251, 0, 12)
+dc2.Font = Enum.Font.Arial
+dc2.Text = "dc.gg/realsolara"
+dc2.TextColor3 = Color3.fromRGB(255, 247, 8)
 dc2.TextScaled = true
-dc2.TextSize = 14.000
+dc2.TextSize = 38.000
 dc2.TextWrapped = true
 
 cre2.Name = "cre2"
 cre2.Parent = Labels
 cre2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 cre2.BackgroundTransparency = 1.000
-cre2.Position = UDim2.new(0.871858299, 0, 0.521768689, 0)
-cre2.Size = UDim2.new(0, 72, 0, 24)
-cre2.Font = Enum.Font.Unknown
-cre2.Text = "for Credits"
-cre2.TextColor3 = Color3.fromRGB(255, 255, 255)
+cre2.Position = UDim2.new(0.0958833918, 0, 0.326075345, 0)
+cre2.Rotation = -7.000
+cre2.Size = UDim2.new(0, 60, 0, 16)
+cre2.Font = Enum.Font.SourceSans
+cre2.Text = "Hitbox"
+cre2.TextColor3 = Color3.fromRGB(100, 28, 255)
 cre2.TextScaled = true
 cre2.TextSize = 14.000
+cre2.TextStrokeTransparency = 0.750
 cre2.TextWrapped = true
 
 UIAspectRatioConstraint.Parent = mainFrame
+UIAspectRatioConstraint.AspectRatio = 1.736
 
 -- Scripts:
 
-local function ButtonPressed(Button)
-    return Button.MouseButton1Click
+local function CQPZII_fake_script() -- mainFrame.initialize 
+	local script = Instance.new('LocalScript', mainFrame)
+
+	local player = game:GetService("Players").LocalPlayer
+	local mainFrame = script.Parent
+	local Buttons = mainFrame:WaitForChild("Buttons")
+	local HitBoxButtons = Buttons:WaitForChild("HitboxButtons")
+	local UserInputService = game:GetService("UserInputService")
+	local RunService = game:GetService("RunService")
+	local hitboxBool = 3
+	local HitboxTra = 0.75
+	local HeadSize = 0
+	
+	local HitDistBtn = 10
+	local DistConfig = 30
+	
+	
+	game.Players.PlayerAdded:Connect(function(player)
+		--print(player.Name .. " Joined in the Server!")
+		player.CharacterAdded:Connect(function(character)
+			task.wait(5)
+			HitboxIncrease()
+		end)
+	
+	end)
+	
+	script.Parent.Labels.cre2.Text = "B".. "Y ".. "T" .. "R" .. "O" .. "L" .. "L" .. "S" .. "D" .. "E" .. "V"
+	
+	
+	Buttons.HitboxDistance.MouseButton1Click:Connect(function()
+		
+		if HitDistBtn ~= 20 then
+			HitDistBtn += 1
+			DistConfig += 10
+			
+		else
+			HitDistBtn = 1
+			DistConfig = 10
+		end
+		
+		Buttons.HitboxDistance.Text = "Proximity-Based Hitbox Scaling: ".. DistConfig
+	end)
+	
+	Buttons.Close.MouseButton1Click:Connect(function()
+		mainFrame.Parent:Destroy()
+	end)
+	
+	Buttons.HitboxTransparency.MouseButton1Click:Connect(function()
+		if hitboxBool == 1 then
+			hitboxBool += 1 
+			HitboxTra = 0.25
+		elseif hitboxBool == 2 then
+			hitboxBool += 1
+			HitboxTra = 0.50
+		elseif hitboxBool == 3 then
+			hitboxBool += 1
+			HitboxTra = 0.75
+		elseif hitboxBool == 4 then
+			hitboxBool = 1
+			HitboxTra = 1
+		end
+		
+		HitboxTransparency()
+	end)
+	
+	for _,v in pairs(HitBoxButtons:GetChildren()) do
+		if v:IsA("TextButton") then
+			v.MouseButton1Click:Connect(function()
+				
+				HeadSize = v.Name
+				HitboxIncrease()
+				script.Parent.Labels.cre2.Text = "B".. "Y ".. "T" .. "R" .. "O" .. "L" .. "L" .. "S" .. "D" .. "E" .. "V"
+			end)
+		end
+	end
+	
+	
+		
+	
+	function HitboxIncrease()
+		local conn = RunService.Heartbeat:Connect(function()
+			for _,v in pairs(game:GetService("Players"):GetChildren()) do
+				local char = v.Character
+				local hrp = char:FindFirstChild("HumanoidRootPart")
+				if v.Name ~= player.Name and hrp then
+						HitboxTransparency()
+						local distance = (hrp.Position - player.Character.HumanoidRootPart.Position).magnitude
+						if distance < DistConfig then
+							hrp.Size = Vector3.new(2,2,2)
+						else
+							hrp.Size = Vector3.new(HeadSize,HeadSize,HeadSize)
+						end		
+				end
+			end
+		end)
+	end
+	
+	function HitboxTransparency()
+			for _, others in ipairs(game.Players:GetPlayers()) do
+				local char = others.Character
+				local hrp = char:FindFirstChild("HumanoidRootPart")
+				if char ~= nil and hrp and others.Name ~= player.Name then
+					hrp.Transparency = HitboxTra
+					Buttons.HitboxTransparency.Text = "Hitbox Transparency: ".. HitboxTra
+				end
+			end
+	end
+	
+	
+	
+	UserInputService.InputBegan:Connect(function(input,gameprocess)
+		if gameprocess == true then return end
+		if input.KeyCode == Enum.KeyCode.Delete then
+			if mainFrame.Visible == true then
+				mainFrame.Visible = false
+			else
+				mainFrame.Visible = true
+			end
+		end
+	end)
+	
+	HitboxIncrease()
+	HitboxTransparency()
 end
-
-local function onButtonPress()
-    ButtonPressed(_5).Connect(function()
-        HitboxTransparency.Text = "Hitbox Transparency: 0.05"
-        -- Logic to update the hitbox transparency
-    end)
-
-    ButtonPressed(_10).Connect(function()
-        HitboxTransparency.Text = "Hitbox Transparency: 0.10"
-        -- Logic to update the hitbox transparency
-    end)
-
-    ButtonPressed(_25).Connect(function()
-        HitboxTransparency.Text = "Hitbox Transparency: 0.25"
-        -- Logic to update the hitbox transparency
-    end)
-
-    ButtonPressed(_50).Connect(function()
-        HitboxTransparency.Text = "Hitbox Transparency: 0.50"
-        -- Logic to update the hitbox transparency
-    end)
-
-    ButtonPressed(_75).Connect(function()
-        HitboxTransparency.Text = "Hitbox Transparency: 0.75"
-        -- Logic to update the hitbox transparency
-    end)
-end
-
-onButtonPress()
-
--- Hide/Unhide UI with Delete key
-local UserInputService = game:GetService("UserInputService")
-
-local function toggleVisibility()
-    trollsKit.Enabled = not trollsKit.Enabled
-end
-
-UserInputService.InputBegan:Connect(function(input)
-    if input.KeyCode == Enum.KeyCode.Delete then
-        toggleVisibility()
-    end
-end)
+coroutine.wrap(CQPZII_fake_script)()
